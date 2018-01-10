@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Monkey D. Luffy",
+    "image": "/assets/images/Monkey_D._Luffy_Post_Timeskip_Portrait.png"
+  },
+  {
+    "id": 2,
+    "name": "Roronoa Zoro",
+    "image": "/assets/images/Roronoa_Zoro_Post_Timeskip_Portrait.png"
+  },
+  {
+    "id": 3,
+    "name": "Nami",
+    "image": "/assets/images/Nami_Post_Timeskip_Portrait.png"
+  },
+  {
+    "id": 4,
+    "name": "Usopp",
+    "image": "/assets/images/Usopp_Post_Timeskip_Portrait.png"
+  },
+  {
+    "id": 5,
+    "name": "Sanji",
+    "image": "/assets/images/Vinsmoke_Sanji_Post_Timeskip_Portrait.png"
+  },
+  {
+    "id": 6,
+    "name": "Tony",
+    "image": "/assets/images/Tony_Tony_Chopper_Post_Timeskip_Portrait.png"
+  },
+  {
+    "id": 7,
+    "name": "Nico Robin",
+    "image": "/assets/images/Nico_Robin_Post_Timeskip_Portrait.png"
+  },
+  {
+    "id": 8,
+    "name": "Franky",
+    "image": "/assets/images/Franky_Post_Timeskip_Portrait.png"
+  },
+  {
+    "id": 9,
+    "name": "Brook",
+    "image": "/assets/images/Brook_Post_Timeskip_Portrait.png"
+  },
+  {
+    "id": 10,
+    "name": "Going Merry",
+    "image": "/assets/images/Going_Merry_Portrait.png"
+  },
+  {
+    "id": 11,
+    "name": "Thousand Sunny",
+    "image": "/assets/images/Thousand_Sunny_Portrait.png"
+  },
+  {
+    "id": 12,
+    "name": "Heart Pirates",
+    "image": "/assets/images/Heart_Pirates_Portrait.png"
+  }
+]

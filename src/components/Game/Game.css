@@ -1,0 +1,15 @@
+.click_image {
+  background-image: url('/assets/images/Brook_Post_Timeskip_Portrait.png');
+  height:170px;
+  width: 170px;
+  margin: 8px 25px;
+  border: 5px solid #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  cursor: pointer;
+}
+
+img{
+	height: 100%;
+	width: 100%;
+}
