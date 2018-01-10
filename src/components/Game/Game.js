@@ -7,6 +7,7 @@ class Game extends Component {
   // Setting the component's initial state
   state = {
     character:character,
+    clicked:[],
     score: 0,
     topScore:0
   };
@@ -23,16 +24,39 @@ class Game extends Component {
     }
 
     this.setState({character:character});
+  };
+
+  checkImage = (id)=>{
+    console.log(id);
+    var array = this.state.clicked;
+    if(array.indexOf(id)===-1){
+      array.push(id);
+      this.setState({clicked:array});
+      console.log(this.state.clicked);
+      this.setState({score:this.state.score+1});
+    }
+    else{
+      alert("Sorry you messed up... Try again!");
+      if(this.state.score>this.state.topScore){
+        this.setState({topScore:this.state.score})
+      }
+      this.setState({
+        score:0,
+        clicked:[]
+      });
+    }
+
+    this.randomImage();
   }
 
   componentDidMount(){
     this.randomImage(this.state.character);
-  };
+  }
 
 
   render() {
 
-    console.log(this.state.character);
+    // console.log(this.state.character);
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
       <div>
@@ -51,9 +75,10 @@ class Game extends Component {
         </header>
         <main className = "container">
 
-          {this.state.character.map(character=>(
-            <CharacterCard key = {character.id} character={character} randomImage={this.randomImage}/>
-          ))}
+          {this.state.character.map(character=>{
+            return <CharacterCard key = {character.id} character={character} checkImage={()=>this.checkImage(character.id)}/>
+          }
+          )}
         </main>
         <footer className="footer">
           <div className="bottom">
