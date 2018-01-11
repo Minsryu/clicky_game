@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import character from "./character.json";
+import character from "./character.js";
 import CharacterCard from "./CharacterCard";
 import "./Game.css";
 
